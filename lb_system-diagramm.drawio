@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T09:02:46.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="QFIL9aFf4ZVggI_3EoiE" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T09:12:37.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="zDMLNWJ0g2kzorTjUE1M" version="22.1.3" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="840" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,16 +12,16 @@
             <mxPoint x="160" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WWbPmoFv4cMyil3xhWsc-4" value="Passagier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-4" value="Kunde" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="160" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WWbPmoFv4cMyil3xhWsc-5" value="Security-Mensch" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-5" value="í ½í»«-Security" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="420" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WWbPmoFv4cMyil3xhWsc-7" value="Label Bros. Kurier&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-7" value="Kurier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="160" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WWbPmoFv4cMyil3xhWsc-8" value="Label Bros. Sachbearbeiter&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-8" value="Sachbearbeiter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="440" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tnSh4lRwmTEVxGAhFn0a-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.108;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-5" target="WWbPmoFv4cMyil3xhWsc-2" edge="1">
@@ -29,7 +29,7 @@
         </mxCell>
         <mxCell id="tnSh4lRwmTEVxGAhFn0a-18" value="Paket ID, Paketgewicht" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-5" vertex="1" connectable="0">
           <mxGeometry x="0.3026" y="-1" relative="1" as="geometry">
-            <mxPoint x="-2" y="-1" as="offset" />
+            <mxPoint x="-49" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tnSh4lRwmTEVxGAhFn0a-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=92.5;entryPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-4" target="WWbPmoFv4cMyil3xhWsc-2" edge="1">
@@ -52,9 +52,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tnSh4lRwmTEVxGAhFn0a-10" value="Quittung,Trackingnummer&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-9" vertex="1" connectable="0">
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-10" value="Quittung,&lt;br&gt;Trackingnummer&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-9" vertex="1" connectable="0">
           <mxGeometry x="-0.0978" y="-2" relative="1" as="geometry">
-            <mxPoint x="-13" y="12" as="offset" />
+            <mxPoint x="-52" y="22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tnSh4lRwmTEVxGAhFn0a-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.927;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="WWbPmoFv4cMyil3xhWsc-2" edge="1">
@@ -88,9 +88,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tnSh4lRwmTEVxGAhFn0a-39" value="Neue QR Codes, Versandlabels, Alter gefÃ¼llter PÃ¤ckchen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-34" vertex="1" connectable="0">
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-39" value="Neue QR Codes,&lt;br&gt;Versandlabels,&lt;br&gt;Alter gefÃ¼llter PÃ¤ckchen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-34" vertex="1" connectable="0">
           <mxGeometry x="-0.4629" relative="1" as="geometry">
-            <mxPoint x="-11" y="42" as="offset" />
+            <mxPoint x="-61" y="52" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tnSh4lRwmTEVxGAhFn0a-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-8" edge="1">
@@ -100,9 +100,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tnSh4lRwmTEVxGAhFn0a-40" value="Anzahl neuer QR-Codes, ID gefÃ¼llter PÃ¤ckchen, Paketstatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-38" vertex="1" connectable="0">
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-40" value="Anzahl neuer QR-Codes,&lt;br&gt;ID gefÃ¼llter PÃ¤ckchen,&lt;br&gt;Paketstatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-38" vertex="1" connectable="0">
           <mxGeometry x="0.208" y="-3" relative="1" as="geometry">
-            <mxPoint x="32" y="4" as="offset" />
+            <mxPoint x="62" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
