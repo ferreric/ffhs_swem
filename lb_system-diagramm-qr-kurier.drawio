@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2023-12-03T11:45:04.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="gcLwxHUfC7zpnAkEcCTG" version="22.1.5" type="github">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1218" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-2" value="" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="244" y="160" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-3" value="Labeling Service" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="WWbPmoFv4cMyil3xhWsc-2" vertex="1">
+          <mxGeometry width="136" height="13.571428571428573" relative="1" as="geometry">
+            <mxPoint x="160" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-4" value="Kunde" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-5" value="Security" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-7" value="Kurier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WWbPmoFv4cMyil3xhWsc-8" value="Sachbearbeiter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.108;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-5" target="WWbPmoFv4cMyil3xhWsc-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-18" value="Paket ID, Paketgewicht, Satus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-5" vertex="1" connectable="0">
+          <mxGeometry x="0.3026" y="-1" relative="1" as="geometry">
+            <mxPoint x="-59" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=92.5;entryPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-4" target="WWbPmoFv4cMyil3xhWsc-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="166" />
+              <mxPoint x="190" y="252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-8" value="Formular-Daten, Payment, Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.6012" y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=155;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-2" target="WWbPmoFv4cMyil3xhWsc-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-10" value="Quittung,&lt;br&gt;&lt;div&gt;Trackingnummer,&lt;/div&gt;&lt;div&gt;Gewicht,&lt;/div&gt;&lt;div&gt;Deadline&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0978" y="-2" relative="1" as="geometry">
+            <mxPoint x="-52" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.927;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="WWbPmoFv4cMyil3xhWsc-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="170" as="sourcePoint" />
+            <mxPoint x="560.54" y="178.88" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="559" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-20" value="ID leerer Päckchen, Standort&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.1822" y="-3" relative="1" as="geometry">
+            <mxPoint x="-18" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="WWbPmoFv4cMyil3xhWsc-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-30" value="Neue QR-Labels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.4555" y="-5" relative="1" as="geometry">
+            <mxPoint x="19" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.52;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-2" target="WWbPmoFv4cMyil3xhWsc-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-39" value="&lt;div&gt;Deadline,&lt;/div&gt;&lt;div&gt;Versand-Label&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.4629" relative="1" as="geometry">
+            <mxPoint x="-61" y="52" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WWbPmoFv4cMyil3xhWsc-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="420" as="sourcePoint" />
+            <mxPoint x="565" y="350" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tnSh4lRwmTEVxGAhFn0a-40" value="ID gefüllter Päckchen,&lt;br&gt;Paketstatus, Standort" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tnSh4lRwmTEVxGAhFn0a-38" vertex="1" connectable="0">
+          <mxGeometry x="0.208" y="-3" relative="1" as="geometry">
+            <mxPoint x="62" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
