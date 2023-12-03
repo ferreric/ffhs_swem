@@ -1,9 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T09:59:29.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.3" etag="lRDkXPEWoVrmCc54ZAaS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T10:14:29.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="zQKOLtmVBlH2XsJLHod5" version="22.1.3" type="github">
   <diagram name="Seite-1" id="18Wy0e9a14y2iKfFiZvs">
-    <mxGraphModel>
+    <mxGraphModel dx="1218" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8ZjAo5hcSu2O5ueR2Of1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ZjAo5hcSu2O5ueR2Of1-1" target="8ZjAo5hcSu2O5ueR2Of1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZjAo5hcSu2O5ueR2Of1-6" value="Päckchen-ID erstellen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8ZjAo5hcSu2O5ueR2Of1-5">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ZjAo5hcSu2O5ueR2Of1-1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZjAo5hcSu2O5ueR2Of1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ZjAo5hcSu2O5ueR2Of1-4" target="8ZjAo5hcSu2O5ueR2Of1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZjAo5hcSu2O5ueR2Of1-9" value="UC: Formular ausfüllen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8ZjAo5hcSu2O5ueR2Of1-8">
+          <mxGeometry x="0.0182" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ZjAo5hcSu2O5ueR2Of1-4" value="Päckchen leer, beschriftet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="315" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZjAo5hcSu2O5ueR2Of1-7" value="Päckchen ist gefüllt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="315" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
