@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T15:43:48.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="k40zMeJl1D1vS5FK2ZDB" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T15:44:49.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Mr19G2mkKwmD335X7p2J" version="22.1.11" type="github">
   <diagram name="Seite-1" id="QL2GSqpA_WiwcAJyHZMA">
     <mxGraphModel dx="1433" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,10 +17,10 @@
           <mxGeometry x="40" y="250" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-37" value="UC4 Formular ausfüllen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="45" y="462.5" width="110" height="60" as="geometry" />
+          <mxGeometry x="111.5" y="370" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-39" value="Bezahlen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="204" y="477.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="346" y="410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-41" value="UC1 Versandlabel generieren" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
           <mxGeometry x="191.5" y="30" width="120" height="60" as="geometry" />
@@ -57,16 +57,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-88" value="mit Twint bezahlen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="360" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="496.5" y="515" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-89" value="mit Kreditkarte bezahlen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="320" y="580" width="120" height="30" as="geometry" />
+          <mxGeometry x="391.5" y="562.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-91" value="mit Google Pay bezahlen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="100" y="590" width="120" height="30" as="geometry" />
+          <mxGeometry x="160" y="545" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-90" value="mit PayPal bezahlen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="204" y="620" width="120" height="30" as="geometry" />
+          <mxGeometry x="291.5" y="610" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-95" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-91" target="UKI22RjMGTlyE8xqwT5Z-39" edge="1">
           <mxGeometry x="0.1984" y="8" width="160" relative="1" as="geometry">
@@ -106,11 +106,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nr56lH37hGzr9RZZTcbW-11" value="UC2 Status abfragen" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="UKI22RjMGTlyE8xqwT5Z-11">
+        <mxCell id="Nr56lH37hGzr9RZZTcbW-11" value="UC2 Paketstatus abfragen" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="UKI22RjMGTlyE8xqwT5Z-11">
           <mxGeometry x="100" y="120" width="110" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="Nr56lH37hGzr9RZZTcbW-14" value="UC5 Status abfragen" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="UKI22RjMGTlyE8xqwT5Z-11">
-          <mxGeometry x="81.5" y="350" width="110" height="65" as="geometry" />
+        <mxCell id="Nr56lH37hGzr9RZZTcbW-14" value="UC5 Lieferstatus abfragen" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="UKI22RjMGTlyE8xqwT5Z-11">
+          <mxGeometry x="31.5" y="480" width="110" height="65" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-2" value="Back-Office" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="50" width="30" height="60" as="geometry" />
@@ -164,16 +164,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-96" value="&lt;div&gt;&amp;lt;&amp;lt;system&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Google Pay&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="189.9999999999999" y="740" width="30" height="60" as="geometry" />
+          <mxGeometry x="189.9999999999999" y="710" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-97" value="&lt;div&gt;&amp;lt;&amp;lt;system&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;PayPal&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="349.9999999999999" y="740" width="30" height="60" as="geometry" />
+          <mxGeometry x="349.9999999999999" y="710" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-98" value="&lt;div&gt;&amp;lt;&amp;lt;system&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Visa-Mastercard&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="499.9999999999999" y="740" width="30" height="60" as="geometry" />
+          <mxGeometry x="499.9999999999999" y="710" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-99" value="&lt;div&gt;&amp;lt;&amp;lt;system&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Twint&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="629.9999999999999" y="740" width="30" height="60" as="geometry" />
+          <mxGeometry x="629.9999999999999" y="710" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-103" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="UKI22RjMGTlyE8xqwT5Z-96" target="UKI22RjMGTlyE8xqwT5Z-91" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
