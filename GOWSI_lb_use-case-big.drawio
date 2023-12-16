@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T15:38:11.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-zJNv3-7Zq8rfTV7XI7I" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T15:42:33.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JWRmAPR9r81jhC1L2tSM" version="22.1.11" type="github">
   <diagram name="Seite-1" id="QL2GSqpA_WiwcAJyHZMA">
     <mxGraphModel dx="1433" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,12 +8,12 @@
           <mxGeometry x="88.5" y="10" width="650" height="660" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-14" value="&lt;br&gt;UC4 Gewicht eingeben" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="510" y="220" width="90" height="60" as="geometry" />
+          <mxGeometry x="491.5" y="220" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-18" value="Versandlabel holen" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
           <mxGeometry x="451.5" y="30" width="110" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-30" value="2. QR-Codes erstellen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
+        <mxCell id="UKI22RjMGTlyE8xqwT5Z-30" value="UC2 QR-Codes erstellen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
           <mxGeometry x="40" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-37" value="UC3. Formular ausfüllen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
@@ -22,35 +22,13 @@
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-39" value="Bezahlen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
           <mxGeometry x="204" y="477.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-41" value="UC1. Versandlabel generieren" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
+        <mxCell id="UKI22RjMGTlyE8xqwT5Z-41" value="UC1 Versandlabel generieren" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
           <mxGeometry x="191.5" y="30" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-43" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="100" y="140" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-44" value="Ware freigeben" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" parent="UKI22RjMGTlyE8xqwT5Z-43" vertex="1">
-          <mxGeometry width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-45" value="" style="line;strokeWidth=1;fillColor=none;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=0;resizeWidth=1;" parent="UKI22RjMGTlyE8xqwT5Z-43" vertex="1">
-          <mxGeometry x="9" y="20" width="162" height="6.666666666666666" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-40" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-37" target="UKI22RjMGTlyE8xqwT5Z-39" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="170" y="330" as="sourcePoint" />
             <mxPoint x="440" y="385" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-63" value="omc" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-44" target="UKI22RjMGTlyE8xqwT5Z-41" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="440" y="310" as="sourcePoint" />
-            <mxPoint x="600" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-68" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.625;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-14" edge="1">
-          <mxGeometry x="-0.4697" y="-11" width="160" relative="1" as="geometry">
-            <mxPoint x="153" y="340" as="sourcePoint" />
-            <mxPoint x="485" y="188.0000000000001" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-69" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.942;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-41" target="UKI22RjMGTlyE8xqwT5Z-18" edge="1">
@@ -60,20 +38,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-74" value="Päckchen zählen" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="324" y="230" width="85" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-75" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-14" target="UKI22RjMGTlyE8xqwT5Z-74" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="463" y="354" as="sourcePoint" />
-            <mxPoint x="436" y="392" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-81" value="Kunden-QR erstellen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="230" y="290" width="116" height="40" as="geometry" />
+          <mxGeometry x="230" y="220" width="116" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-80" value="Päckchen-QR erstellen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
-          <mxGeometry x="220" y="350" width="120" height="40" as="geometry" />
+          <mxGeometry x="230" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-82" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.958;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-30" target="UKI22RjMGTlyE8xqwT5Z-80" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -85,12 +54,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="195" y="547" as="sourcePoint" />
             <mxPoint x="231" y="559" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UKI22RjMGTlyE8xqwT5Z-86" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.967;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-30" target="UKI22RjMGTlyE8xqwT5Z-74" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="182" y="526" as="sourcePoint" />
-            <mxPoint x="305" y="564" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-88" value="mit Twint bezahlen" style="ellipse;whiteSpace=wrap;html=1;" parent="UKI22RjMGTlyE8xqwT5Z-11" vertex="1">
@@ -133,10 +96,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nr56lH37hGzr9RZZTcbW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UKI22RjMGTlyE8xqwT5Z-11" target="UKI22RjMGTlyE8xqwT5Z-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190.05555555555566" y="166.66666666666652" as="sourcePoint" />
+        <mxCell id="Nr56lH37hGzr9RZZTcbW-8" value="Versandlabel drucken" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="UKI22RjMGTlyE8xqwT5Z-11">
+          <mxGeometry x="350" y="140" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr56lH37hGzr9RZZTcbW-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="UKI22RjMGTlyE8xqwT5Z-11" source="UKI22RjMGTlyE8xqwT5Z-41" target="Nr56lH37hGzr9RZZTcbW-8">
+          <mxGeometry x="0.3635" y="3" width="160" relative="1" as="geometry">
+            <mxPoint x="315" y="85" as="sourcePoint" />
+            <mxPoint x="462" y="76" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr56lH37hGzr9RZZTcbW-11" value="UC2 Status abfragen" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="UKI22RjMGTlyE8xqwT5Z-11">
+          <mxGeometry x="100" y="120" width="110" height="65" as="geometry" />
         </mxCell>
         <mxCell id="UKI22RjMGTlyE8xqwT5Z-2" value="Back-Office" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="50" width="30" height="60" as="geometry" />
@@ -241,6 +212,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="300" as="sourcePoint" />
             <mxPoint x="500" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr56lH37hGzr9RZZTcbW-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UKI22RjMGTlyE8xqwT5Z-2" target="Nr56lH37hGzr9RZZTcbW-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="90" as="sourcePoint" />
+            <mxPoint x="290" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="110" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
