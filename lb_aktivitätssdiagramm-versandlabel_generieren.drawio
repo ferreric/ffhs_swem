@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T18:23:54.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rlkOxwfP-nGDymqnpPjB" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T18:24:26.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="s1khB5G1NwR2fK3bJfmZ" version="22.1.11" type="github">
   <diagram name="Seite-1" id="18Wy0e9a14y2iKfFiZvs">
     <mxGraphModel dx="1518" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
           <mxGeometry x="150" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AlCIt3RjvGgdDV8iWQWg-2" value="activity: Versandlabel holen" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
-          <mxGeometry x="560" y="50" width="450" height="840" as="geometry" />
+          <mxGeometry x="560" y="50" width="320" height="840" as="geometry" />
         </mxCell>
         <mxCell id="AlCIt3RjvGgdDV8iWQWg-31" value="Post System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="AlCIt3RjvGgdDV8iWQWg-2">
           <mxGeometry x="165" width="125" height="30" as="geometry" />
@@ -130,16 +130,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7-9NOZU4NKzgfEW0f55U-4" value="Preis berechnen" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="AlCIt3RjvGgdDV8iWQWg-2" vertex="1">
-          <mxGeometry x="165" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AlCIt3RjvGgdDV8iWQWg-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlCIt3RjvGgdDV8iWQWg-2" source="AlCIt3RjvGgdDV8iWQWg-67" target="AlCIt3RjvGgdDV8iWQWg-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AlCIt3RjvGgdDV8iWQWg-67" value="Versandlabel generieren" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="AlCIt3RjvGgdDV8iWQWg-2">
-          <mxGeometry x="165" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AlCIt3RjvGgdDV8iWQWg-69" value="Versandlabel senden" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="AlCIt3RjvGgdDV8iWQWg-2">
-          <mxGeometry x="165" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AlCIt3RjvGgdDV8iWQWg-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AlCIt3RjvGgdDV8iWQWg-62" target="7-9NOZU4NKzgfEW0f55U-4">
           <mxGeometry relative="1" as="geometry" />
