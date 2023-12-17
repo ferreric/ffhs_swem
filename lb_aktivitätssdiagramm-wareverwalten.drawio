@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T17:00:28.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nm30OqLwCFlwEF9kcWec" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T17:00:56.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="G4vUiNYB-juoxYHCVf7W" version="22.1.11" type="github">
   <diagram name="Seite-1" id="18Wy0e9a14y2iKfFiZvs">
     <mxGraphModel dx="1290" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
         <mxCell id="7-9NOZU4NKzgfEW0f55U-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="7-9NOZU4NKzgfEW0f55U-1" source="7-9NOZU4NKzgfEW0f55U-8" target="7-9NOZU4NKzgfEW0f55U-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7-9NOZU4NKzgfEW0f55U-8" value="Attribute auslesen" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="7-9NOZU4NKzgfEW0f55U-1" vertex="1">
+        <mxCell id="7-9NOZU4NKzgfEW0f55U-8" value="Versandlabel generieren" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="7-9NOZU4NKzgfEW0f55U-1" vertex="1">
           <mxGeometry x="290" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-9NOZU4NKzgfEW0f55U-12" value="Deadline &amp;lt; &quot;today&quot; &amp;amp;&amp;amp; Label == null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="7-9NOZU4NKzgfEW0f55U-1" vertex="1">
